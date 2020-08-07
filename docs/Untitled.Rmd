@@ -1,0 +1,40 @@
+---
+title: "Learn Rmarkdown"
+author: "Emily"
+output: html_document
+---
+
+# Header 1
+## Header 2
+### Header 3
+
+*******
+
+- first
+    - first 2
+- second
+- third
+
+1. first
+2. second
+3. third 
+
+https://github.com/ewapman/geog176A-lab01.git
+
+[link](https://github.com/ewapman/geog176A-lab01.git)
+
+
+
+``` {r}
+plot(1:105, 1:105)
+```
+
+#### optioncommandi
+```{r, warning = FALSE, message = FALSE, echo = FALSE}
+library(tidyverse)
+```
+
+```{r}
+cities = readr::read_csv("../data/uscities.csv")
+```
+
